@@ -4,12 +4,23 @@ grid-template-areas:
 "cab cab cab"
 "pri pri asi"
 "foo foo foo";
-text-align: center;
+
 }
 header{
+    grid-area: cab;
     background-color: red;
+    
+}
+main{
+    grid-area: pri;
+    width: 150px;
     text-align: center;
 }
+footer{
+    grid-area: foo;
+    background-color: red;
+}
+
 /* .color1 { #ce3b46 };
 .color2 { #b92c38 };
 .color3 { #a51e29 };
@@ -18,9 +29,9 @@ header{
 aside{
     grid-area: pri;
     background-color: red;
-    text-align: center;
+    
 }
 header img{
-    width: 300px;
-    text-align: center;
+    background-color: red;
+    width: 150px;
 }
