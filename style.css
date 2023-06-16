@@ -8,17 +8,35 @@ grid-template-areas:
 }
 header{
     grid-area: cab;
-    background-color: red;
+    background-color: #ce3b46;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: black solid 15px;
+    position: relative;
     
 }
 main{
-    grid-area: pri;
-    width: 150px;
+    grid-area: asi;
+    background-color: #ce3b46;
     text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 50px;
+    border: black solid 10px;
+    position: relative;
+
 }
 footer{
     grid-area: foo;
-    background-color: red;
+    background-color: #ce3b46;
+    text-align: center;
+    color: black;
+    border-radius: 50%;
+    border: black solid 15px;
 }
 
 /* .color1 { #ce3b46 };
@@ -28,10 +46,17 @@ footer{
 .color5 { #7b000c }; */
 aside{
     grid-area: pri;
-    background-color: red;
+    background-color: #ce3b46;
+    text-align: center;
+    color: black;
+    border-radius: 50px;
+    border: black solid 15px;
     
 }
 header img{
     background-color: red;
-    width: 150px;
+    width: 160px;
+}
+main img{
+    width: 300px;
 }
