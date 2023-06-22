@@ -1,10 +1,9 @@
 body{ 
-display: grid;
-grid-template-areas: 
-"cab cab cab"
-"pri pri asi"
-"foo foo foo";
-
+    display: grid;
+    grid-template-areas: 
+    "cab cab cab"
+    "pri pri asi"
+    "foo foo foo";
 }
 header{
     grid-area: cab;
@@ -14,7 +13,6 @@ header{
     border-radius: 50px;
     border: black solid 15px;
     position: relative;
-    
 }
 main{
     grid-area: asi;
@@ -28,7 +26,6 @@ main{
     border-radius: 50px;
     border: black solid 10px;
     position: relative;
-
 }
 footer{
     grid-area: foo;
@@ -54,7 +51,6 @@ aside{
     
 }
 header img{
-    background-color: red;
     width: 160px;
 }
 main img{
@@ -62,4 +58,7 @@ main img{
 }
 aside img{
     width: 250px;
+}
+.logo{
+    width: 80px;
 }
