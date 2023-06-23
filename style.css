@@ -55,10 +55,59 @@ header img{
 }
 main img{
     width: 300px;
+    border-radius: 3rem;
 }
 aside img{
     width: 250px;
+    border-radius: 3rem;
 }
 .logo{
     width: 80px;
+}
+.card{
+    margin: 100px;
+    border: black 2px solid;
+}
+.cadas{
+    display: grid;
+    grid-template-areas: 
+    "cab cab cab"
+    "asi asi asi"
+    "foo foo foo";
+}
+.cadas main{
+    grid-area: asi;
+}
+.cadas form{
+    font-size: 180%;
+}
+.Campo{
+    display: flex;
+    margin: 10px;
+}
+.prod{
+    display: grid;
+    grid-template-areas: 
+    "cab cab cab"
+    "asi asi asi"
+    "foo foo foo"; 
+
+}
+.prod main{
+    grid-area: asi;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    animation: pin 2s linear infinite;
+}
+@keyframes pin {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: purple;
+    }
+    100%{
+        background-color: green;
+    }
 }
