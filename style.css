@@ -4,6 +4,7 @@ body{
     "cab cab cab"
     "pri pri asi"
     "foo foo foo";
+    background-color: black;
 }
 header{
     grid-area: cab;
@@ -97,17 +98,13 @@ aside img{
     grid-area: asi;
     display: flex;
     flex-direction: column;
-    background-color: pink;
-    animation: pin 2s linear infinite;
+    background-color: #ce3b46;
+    
 }
-@keyframes pin {
-    0%{
-        background-color: red;
-    }
-    50%{
-        background-color: purple;
-    }
-    100%{
-        background-color: green;
-    }
+
+.carrinho{
+    text-align: end;
+    position: absolute;
+    right: 0px;
+    top: 10px;
 }

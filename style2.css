@@ -1,1 +1,21 @@
-body{ background-color:#ce3b46;}
+body{ 
+    background-color:#ce3b46;
+    grid-template-areas: 
+    "cab cab cab"
+    "asi pri pri"
+    "foo foo foo"
+}
+header{
+    grid-area: cab;
+}
+aside{
+    grid-area: asi;
+}
+
+main{
+    grid-area: pri;
+    display: flex;
+}
+footer{
+    grid-area: foo;
+}
