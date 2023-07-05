@@ -49,6 +49,7 @@ aside{
     color: black;
     border-radius: 50px;
     border: black solid 15px;
+   display: inline;
     
 }
 header img{
@@ -59,7 +60,7 @@ main img{
     border-radius: 3rem;
 }
 aside img{
-    width: 300px;
+    width: 250px;
     border-radius: 3rem;
 }
 .logo{
@@ -67,6 +68,7 @@ aside img{
 }
 .card{
     margin: 100px;
+    border: black 2px solid;
 }
 .cadas{
     display: grid;
@@ -107,14 +109,22 @@ aside img{
     right: 0px;
     top: 10px;
 }
-.carrinho main{
 
 
+.container_mae{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.carrinho{  
-    display: grid;
-    grid-template-areas: 
-    "cab cab cab"
-    "asi asi asi"
-    "foo foo foo"; 
+
+.card{
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 6px 9px red;
+    transition: 0.5s;
 }
