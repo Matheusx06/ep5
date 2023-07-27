@@ -59,7 +59,7 @@ main img{
     border-radius: 3rem;
 }
 aside img{
-    width: 300px;
+    width: 250px;
     border-radius: 3rem;
 }
 .logo{
@@ -67,6 +67,7 @@ aside img{
 }
 .card{
     margin: 100px;
+    border: black 2px solid;
 }
 .cadas{
     display: grid;
@@ -106,15 +107,4 @@ aside img{
     position: absolute;
     right: 0px;
     top: 10px;
-}
-.carrinho main{
-
-
-}
-.carrinho{  
-    display: grid;
-    grid-template-areas: 
-    "cab cab cab"
-    "asi asi asi"
-    "foo foo foo"; 
 }
