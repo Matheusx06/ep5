@@ -128,3 +128,30 @@ aside img{
     box-shadow: 3px 6px 9px red;
     transition: 0.5s;
 }
+@media only screen and (max-width:800px){
+    body{
+        grid-template-areas:
+        "cab"
+        "asi"
+        "foo";
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 50px 500px 200px;
+    }
+    footer{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:270px){
+    body{
+        grid-template-areas:
+        "cab"
+        "asi"
+        "foo";
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px 100px;
+    }
+    footer{
+        display: none;
+    }
+}
