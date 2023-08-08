@@ -49,6 +49,7 @@ aside{
     color: black;
     border-radius: 50px;
     border: black solid 15px;
+   display: inline;
     
 }
 header img{
@@ -107,4 +108,50 @@ aside img{
     position: absolute;
     right: 0px;
     top: 10px;
+}
+
+
+.container_mae{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 6px 9px red;
+    transition: 0.5s;
+}
+@media only screen and (max-width:800px){
+    body{
+        grid-template-areas:
+        "cab"
+        "asi"
+        "foo";
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 50px 500px 200px;
+    }
+    footer{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:270px){
+    body{
+        grid-template-areas:
+        "cab"
+        "asi"
+        "foo";
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 500px 100px;
+    }
+    footer{
+        display: none;
+    }
 }
