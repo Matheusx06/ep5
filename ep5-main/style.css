@@ -128,28 +128,39 @@ aside img{
     box-shadow: 3px 6px 9px red;
     transition: 0.5s;
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1000px){
     body{
         grid-template-areas:
         "cab"
+        "pri"
         "asi"
         "foo";
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 50px 500px 200px;
+        grid-template-rows: auto auto auto auto;
     }
     footer{
         display: none;
     }
     
 }
-@media only screen and (max-width:270px){
+@media only screen and (max-width:200px){
     body{
         grid-template-areas:
         "cab"
+        "pri"
         "asi"
         "foo";
         grid-template-columns: 1fr;
-        grid-template-rows: 100px 500px 100px;
+        grid-template-rows: auto auto auto auto;
+    }
+    header{
+        display: none;
+    }
+    main{
+        display: none;
+    }
+    aside{
+        display: none;
     }
     footer{
         display: none;
